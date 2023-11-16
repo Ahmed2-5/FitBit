@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frontPublication">
+
+    <!-- activity_main.xml -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Publications">
+
+
+
+        <Button
+            android:id="@+id/btnAddPublication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add and View Publication"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnViewNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View News"
+            android:layout_below="@id/btnAddPublication"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/btnWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check the Weather"
+            android:layout_below="@id/btnViewNews"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="162dp"
+            android:background="@color/profilePrimaryDark"
+            android:text="Go To Home"></Button>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

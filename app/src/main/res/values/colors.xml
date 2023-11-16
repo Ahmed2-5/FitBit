@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#CE9C9C9C</color>
+    <color name="grey2">#5EA1A0A0</color>
+    <color name="colorApp">#CD4F249A</color>
+    <color name="purple_200">#1E1D1D</color>
+    <color name="purple_500">#1E1D1D</color>
+    <color name="purple_700">#1E1D1D</color>
+    <!-- purple 700 ka change for title bar -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="trans">#00000000</color>
+    <color name="warn">#FF1313</color>
+    <color name="halfwarn">#F8E225</color>
+    <color name="green">#41C647</color>
+    <color name="primaryColor">#FF9800</color>
+    <color name="orange">#F7C233</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--colors for profile-->
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>
