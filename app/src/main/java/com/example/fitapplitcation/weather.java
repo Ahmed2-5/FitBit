@@ -33,7 +33,7 @@ public class weather extends AppCompatActivity {
 
 
     private final String url ="http://api.openweathermap.org/data/2.5/weather";
-    private final String appid = "7f46984f824af3ce2915a2d46020f5b2";
+    private final String appid = "";
 
     DecimalFormat df = new DecimalFormat("#.##");
     @SuppressLint("WrongViewCast")
